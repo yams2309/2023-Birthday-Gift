@@ -9,7 +9,7 @@ form.addEventListener("submit",function(event){
     let password = document.getElementById("pass").value;
     // console.log(password);
     if(password=="yeeshbudday23"){
-        window.location.href = `https://github.com/yams2309/2023-Birthday-Gift/main/discRocket.html`;
+        window.location.href = `https://github.com/yams2309/2023-Birthday-Gift/render/main/discRocket.html`;
     }
     else{
         err.style.visibility = "visible";       
