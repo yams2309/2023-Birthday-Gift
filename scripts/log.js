@@ -9,7 +9,7 @@ form.addEventListener("submit",function(event){
     let password = document.getElementById("pass").value;
     // console.log(password);
     if(password=="yeeshbudday23"){
-        window.location.href = "../discRocket.html";
+        window.location.href = `../discRocket.html`;
     }
     else{
         err.style.visibility = "visible";       
